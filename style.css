@@ -1,7 +1,36 @@
-#image{
- 
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
 }
+
+div {
+    margin: 20px auto;
+}
+
+img {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #0a0000;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+button:first-child {
+    background-color: green;
+    color: white;
+}
+
+button:last-child {
+    background-color: red;
+    color: white;
+}
+
+
